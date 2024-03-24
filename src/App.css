@@ -1,0 +1,270 @@
+html, body, body > div, .app {
+  height: 100%;
+  background-color:wheat  ;
+}
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+ 
+}
+.App {
+
+ padding: 5%;
+ /* background-image: linear-gradient(to bottom,#E1AFD1,#FFE6E6); */
+ /* background-color: aqua; */
+ width: 100%;
+ height: 100%;
+ 
+}
+.poppins-semibold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.hello{
+  background-color: yellow;
+}
+/* .nav{
+  background-color: #61dafb;
+} */
+.navItem{
+  display: flex;
+  
+  justify-content: space-around;
+  gap:10px;
+  
+}
+ .header{
+    display: flex;
+    color: #282c34;
+    justify-content: end;
+    align-items: end;
+    gap: 20px;
+    
+ }
+ .about{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 3%;
+   gap:10%;
+ }
+ .image{
+   height: 60%;
+   width: 80%;
+   margin-top: 10px;
+   border-radius: 50%;
+   margin: 10px;
+   
+ }
+ .dev{
+  color: #282c34;
+ }
+ .type{
+  font-size: x-large;
+  font-weight: bold;
+  opacity: .7;
+ }
+ .h{
+  color: #282c34;
+ }
+ .button{ 
+   margin: 5%;
+   padding: 4%;
+   text-align: center;
+  border-radius: 50%;
+  background-color:#282c34;
+  color: white;
+ }
+ .icons{
+  display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 5%;
+   margin-top: 5%;
+ }
+.aboutscreen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 2%;
+}
+.aboutscreen h6{
+  padding-top: 3%;
+  opacity: 0.6;
+}
+.exp{
+  display: flex;
+  /* gap:7%; */
+  column-gap: 7%;
+  padding: 2%;
+  margin-right: 30px;
+  margin-left: 50px;
+}
+.aboutsection{
+  padding-top: 2%;
+  padding-left: 10%;
+  padding-right: 10%;
+
+}
+.frontend{
+  border:1px solid black;
+  /* border-width: 1px; */
+  background: linear-gradient(
+    wheat,wheat 50% , #333 50% ,#333
+  );
+  background-size: 100% 200%;
+  transition: all 0.2s ease;
+  padding: 5%;
+  gap: 10px;
+ 
+}
+.frontend:hover{
+  background-position: 100% 100%;
+  color: white;
+  
+}
+/* .frontend h4{
+  color: #282c34;
+} */
+/* .frontend h4:hover{
+  color: white;
+} */
+.list{
+  display: flex;
+  justify-content: space-between;
+  padding: 2% 5%;
+}
+.col{
+  display: flex;
+  
+}
+.tick{
+  display: flex;
+  gap: 10px;
+}
+.tic{
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  border-radius: 50%;
+  color: white;
+
+  
+}
+.cont{
+  display: flex;
+  flex-direction: column;
+  padding-left: 5%;
+
+}
+.contentfrontend{
+  display: flex;
+  flex-grow: 2;
+   gap: 5rem;
+  margin-top: 5%
+}
+.gap{
+  gap: 5%;
+}
+.expscreen {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 5%;
+  gap: 5%;
+ 
+}
+.backend{
+  gap: 10px;
+}
+.span{
+  opacity: 0.6;
+}
+.p{
+  font-weight: bold;
+}
+.know{
+  opacity: 0.6;
+}
+.web{
+  width: 50%;
+  height: 30%;
+  justify-content: center;
+  align-items: center;
+}
+.project{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.crd{
+  margin-top: 10px;
+  display: flex;
+  border: 1px solid black;
+  
+}
+.demobut{
+  display: flex;
+  gap: 2%;
+}
+.contact{
+  display: flex;
+  gap: 2%;
+}
+.conc{
+  border: 1px solid black;
+  margin-top: 1%;
+  border-radius: 5%;
+  padding: 1%;
+}
+.foot{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+}
