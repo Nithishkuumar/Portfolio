@@ -22,8 +22,8 @@ const Projectscreen = () => {
                 MangoDB and ExpressJS
               </Card.Text>
               <div className="demobut">
-                <Button variant="secondary" size="sm">Github</Button>
-                <Button variant="secondary" size="sm">Demo</Button>
+              <Button variant="secondary" size="sm"><a  style={{textDecoration:"none",color:"black"}}href="https://github.com/Nithishkuumar/Shoop">Github</a></Button>
+                <Button variant="secondary" size="sm"><a style={{textDecoration:"none",color:"black"}}href="https://shoop-t94i.onrender.com/">Demo</a></Button>
               </div>
             </Card.Body>
           </Card>
